@@ -8,8 +8,8 @@
   "scripts": {
     "watch": "tsc --watch",
     "clean": "rm -rf docs",
-    "build": "parcel build index.html 404.html --out-dir docs --public-url /pos-app/",
-    "dev": "parcel index.html --open",
+    "build": "parcel build manage-customers.html 404.html --out-dir docs --public-url /pos-app/",
+    "dev": "parcel manage-customers.html --open",
     "start": "npm run build && npm run dev"
   },
   "devDependencies": {
